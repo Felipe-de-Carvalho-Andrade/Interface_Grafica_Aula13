@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+  Copyright (c) 2015, 2019, Gluon and/or its affiliates.
+  All rights reserved. Use is subject to license terms.
+
+  This file is available and licensed under the following license:
+
+  Redistribution and use in source and binary forms, with or without
+  modification, are permitted provided that the following conditions
+  are met:
+
+  - Redistributions of source code must retain the above copyright
+    notice, this list of conditions and the following disclaimer.
+  - Redistributions in binary form must reproduce the above copyright
+    notice, this list of conditions and the following disclaimer in
+    the documentation and/or other materials provided with the distribution.
+  - Neither the name of Oracle Corporation nor the names of its
+    contributors may be used to endorse or promote products derived
+    from this software without specific prior written permission.
+
+  THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+  "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+  LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
+  A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT
+  OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+  SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
+  LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+  DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+  THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+  (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+  OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+-->
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox prefHeight="378.0" prefWidth="367.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller">
+  <children>
+    <AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="375.0" prefWidth="363.0" VBox.vgrow="ALWAYS">
+         <children>
+            <Button fx:id="btnNumero7" layoutX="37.0" layoutY="139.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="44.0" prefWidth="51.0" text="7">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Button>
+            <Button fx:id="btnNumero8" layoutX="97.0" layoutY="139.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="44.0" prefWidth="51.0" text="8">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Button>
+            <Button fx:id="btnNumero9" layoutX="162.0" layoutY="139.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="44.0" prefWidth="51.0" text="9">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Button>
+            <Button fx:id="btnNumero4" layoutX="37.0" layoutY="194.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="44.0" prefWidth="51.0" text="4">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Button>
+            <Button fx:id="btnNumero5" layoutX="97.0" layoutY="194.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="44.0" prefWidth="51.0" text="5">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Button>
+            <Button fx:id="btnNumero6" layoutX="160.0" layoutY="194.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="44.0" prefWidth="51.0" text="6">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Button>
+            <Button fx:id="btnNumero1" layoutX="37.0" layoutY="248.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="44.0" prefWidth="51.0" text="1">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Button>
+            <Button fx:id="btnNumero2" layoutX="97.0" layoutY="248.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="44.0" prefWidth="51.0" text="2">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Button>
+            <Button fx:id="btnNumero3" layoutX="160.0" layoutY="248.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="44.0" prefWidth="51.0" text="3">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Button>
+            <Button fx:id="btnNumero0" layoutX="37.0" layoutY="302.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="44.0" prefWidth="51.0" text="0">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Button>
+            <Button fx:id="btnVirgula" layoutX="97.0" layoutY="302.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="44.0" prefWidth="51.0" text=",">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+            <Button fx:id="btnIgual" layoutX="162.0" layoutY="302.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="44.0" prefWidth="51.0" style="-fx-background-color: #0d00ff;" text="=" textFill="WHITE">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+            <Button fx:id="btnDivisao" layoutX="224.0" layoutY="139.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="44.0" prefWidth="51.0" text="/">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+            <Button fx:id="btnMultiplicacao" layoutX="224.0" layoutY="194.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="44.0" prefWidth="51.0" text="*">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+            <Button fx:id="btnSubtracao" layoutX="224.0" layoutY="248.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="44.0" prefWidth="51.0" text="-">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+            <Button fx:id="btnElevado" layoutX="286.0" layoutY="248.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="44.0" prefWidth="51.0" text="^">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+            <Button fx:id="btnRaiz" layoutX="286.0" layoutY="194.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="44.0" prefWidth="51.0" text="√">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+            <Button layoutX="37.0" layoutY="87.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="44.0" prefWidth="51.0" text="AC">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Button>
+            <Button fx:id="btnFatorial" layoutX="286.0" layoutY="302.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="44.0" prefWidth="51.0" text="!">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+            <Button layoutX="224.0" layoutY="302.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="44.0" prefWidth="51.0" text="+">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+            <Button fx:id="btnPorcentagem" layoutX="286.0" layoutY="139.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="44.0" prefWidth="51.0" text="\%">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+            <Label fx:id="visor" alignment="CENTER_RIGHT" contentDisplay="RIGHT" layoutX="31.0" layoutY="20.0" prefHeight="60.0" prefWidth="314.0" style="-fx-border-color: blue; -fx-border-width: 30%;">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Label>
+            <Button fx:id="btnInverteSinal" layoutX="97.0" layoutY="87.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="44.0" prefWidth="51.0" text="+/-">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Button>
+         </children>
+    </AnchorPane>
+  </children>
+</VBox>
